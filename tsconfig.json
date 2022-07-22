@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "module": "commonJS",
+    "target": "ES2021",
+    "lib": [
+      "ES2021"
+    ]
+  },
+  "references": [],
+  "exclude": [
+    "node_modules",
+    "**/*.test.ts"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "webstorm-typescript-jest-exclude",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc --build ./tsconfig.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "@types/lodash.isnil": "^4.0.7",
+    "@types/node": "^18.0.1"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "globals": {
+      "ts-jest": {
+        "isolatedModules": true
+      }
+    }
+  },
+  "dependencies": {
+    "lodash.isnil": "^4.0.0"
+  }
+}
